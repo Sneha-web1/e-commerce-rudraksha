@@ -1,0 +1,58 @@
+.custom-logo {
+  max-height: 50px; /* Adjust the max-height to fit your design */
+  width: auto;
+}
+.navbar {
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+.img-fluid1{
+  width: 100%;
+  height: auto;
+}
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  margin-bottom: 0.75rem;
+}
+.btnBookNow{
+  font-weight: 600;
+  background-color: red;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+.btnBookNow:focus{
+  background-color: #f6f628;
+  color: #000;
+}
+@media(max-width:992px){
+    .items {
+        text-align: center !important;
+      }
+}

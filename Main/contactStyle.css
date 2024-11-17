@@ -1,0 +1,106 @@
+.box {
+  border: 1px solid #070707;
+  padding: 20px 10px;
+  position: relative;
+}
+.box2 {
+  border: 1px solid #070707;
+  padding: 28px 10px;
+  position: relative;
+}
+.icon {
+  position: absolute;
+  top: -26px;
+  left: 45%;
+  background-color: #fff;
+  padding: 10px;
+  transform: rotate(45deg);
+}
+.icon1 {
+  position: absolute;
+  background-color: #fff;
+  padding: 10px;
+  transform: rotate(45deg);
+  top: -26px;
+  left: 45%;
+}
+.icon3{
+  position: absolute;
+  top: -26px;
+  left: 45%;
+  background-color: #fff;
+  padding: 10px;
+  transform: rotate(45deg);
+}
+
+.imgrotate {
+  transform: rotate(-45deg);
+}
+.inputwidth {
+  width: 100%;
+  margin-bottom: 25px;
+  outline: -webkit-focus-ring-color auto 0px !important;
+  padding: 10px;
+}
+.sendbtn {
+  background: transparent;
+  border: solid red 2px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.sendbtn:hover {
+  color: red;
+  border: solid #fff 2px;
+  background-color: #fff;
+  transition: 0.3s all ease-in-out;
+}
+.contactBox {
+  background-color: #b2a4a400;
+  border: 5px solid #fff;
+  padding: 35px 26px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.mapWidth {
+  width: 100%;
+  height: 400px;
+}
+.custom-logo {
+  max-height: 50px; /* Adjust the max-height to fit your design */
+  width: auto;
+}
+.navbar {
+  padding: 0.5rem 1rem; /* Adjust padding as needed */
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1200px) {
+  .contactBox h1 {
+    font-size: 25px !important;
+  }
+  .contactBox p {
+    font-size: 15px !important;
+  }
+  .contactBox {
+    padding: 10px 25px !important;
+  }
+}
+@media (max-width: 992px) {
+  .responsiveImg {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .items {
+    text-align: center !important;
+  }
+}
+@media (max-width: 366px) {
+  .contactBox h1{
+   font-size: 20px !important;
+  }
+  .contactBox p{
+    font-size: 11px !important;
+   }
+}

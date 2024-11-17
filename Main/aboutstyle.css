@@ -1,0 +1,99 @@
+.fixcontent{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.fixcontent p{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: justify;
+}
+.aboutguruji{
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+}
+.bgRudraksha{
+    margin-top: 50px;
+    background-image: url("https://www.rudraksha-ratna.com/Category_Banner.cb6a79710fb46621.png");
+    background-size: 100% 90%;
+    /* padding: 20px; */
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+.bgcolor{
+    background-color: #f5f5f5;    ;
+}
+.eventsBtn{
+    font-size: 20px;
+    color: #fff;
+    background-color: #740074;
+    border-color: #740074;
+    padding: 5px 30px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.boxExperience{
+    background-color: #fff;
+    box-shadow:#fff 0px 1px 4px, #fff 0px 0px 0px 3px;
+    padding: 30px;
+}
+.custom-logo {
+    max-height: 50px; /* Adjust the max-height to fit your design */
+    width: auto;
+  }
+  .navbar {
+    padding: 0.5rem 1rem; /* Adjust padding as needed */
+  }
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+@media(max-width:1400px){
+    .fixcontent p{
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
+@media(max-width:1200px){
+    .fixcontent{
+        margin-top: 0px !important;
+        margin-left: 30px;
+    }
+    .fixcontent p {
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+@media(max-width:992px){
+    .fixcontent{
+        margin-top: 40px !important;
+        margin-left: 30px;
+    }
+    .items {
+        text-align: center !important;
+      }
+    .fixcontent p {
+        margin-top: 35px;
+        font-weight: 600;
+        font-size: 17px;
+    }
+    .boxExperience {
+        background-color: #fff;
+        box-shadow: #fff 0px 1px 4px, #fff 0px 0px 0px 3px;
+        padding: 20px 1px;
+    }
+    .bgRudraksha{
+        background-image: none;
+    }
+    .displayblock{
+        background-color: #fff;
+    }
+}
+@media(max-width:992px){
+    .boxExperience {
+        background-color: #fff;
+        box-shadow: #fff 0px 1px 4px, #fff 0px 0px 0px 3px;
+        padding: 20px 10px;
+    }
+}
